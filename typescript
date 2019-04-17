@@ -1,0 +1,1368 @@
+Script started on Thu 11 Apr 2019 12:06:10 PM PDT
+chongs@CF165-19:~$ mkdir csci241
+chongs@CF165-19:~$ cd csci241
+chongs@CF165-19:~/csci241$ 1a[Ks
+1s: command not found
+chongs@CF165-19:~/csci241$ sc[K[Kls
+chongs@CF165-19:~/csci241$ pwd
+/home/chongs/csci241
+chongs@CF165-19:~/csci241$ ls ~
+csci241  Documents  gitlab-fri-demo  Music     Public	  testfile.java  Videos
+Desktop  Downloads  IdeaProjects     Pictures  Templates  typescript
+chongs@CF165-19:~/csci241$ git clone https://github.com/CSCI241Spring2019/lab-1- ShiHaurChong.git
+Cloning into 'lab-1-ShiHaurChong'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+Checking connectivity... done.
+chongs@CF165-19:~/csci241$ got[K[Kt[Kit congff[K[Kgif[K[K[Kgi[K[K[K[Kngi[K[Kfig--global uner,[K[K[K[Kser,[K.name "SHi[K[Khi Haur Chong"
+git: 'config--global' is not a git command. See 'git --help'.
+chongs@CF165-19:~/csci241$ git cong[Kfig--global userm[K.name SHiHaurChong
+git: 'config--global' is not a git command. See 'git --help'.
+chongs@CF165-19:~/csci241$ git cong[Kfig --gol[K[Klobal uner.[K[K[K[Kser.name "[KShiHaurChong
+chongs@CF165-19:~/csci241$ git cong[Kfig --global user.ena,[K[K[Kmail chongs@wwu.edu
+chongs@CF165-19:~/csci241$ touch writeup.txt
+chongs@CF165-19:~/csci241$ git add writeup.txt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+chongs@CF165-19:~/csci241$ git commit =[K-m"A "A[C[C[Cdded empty writeup"
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+chongs@CF165-19:~/csci241$ git add writeup.txt
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+chongs@CF165-19:~/csci241$ ls
+lab-1-ShiHaurChong  writeup.txt
+chongs@CF165-19:~/csci241$ rm writeup.txt 
+chongs@CF165-19:~/csci241$ cd lab-1-ShiHaurChong/
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ o[Kexit
+exit
+
+Script done on Thu 11 Apr 2019 12:44:20 PM PDT
+Script started on Thu 11 Apr 2019 12:45:50 PM PDT
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ toucgh[K[Kh writeuo[K[Kup.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git add wrt[Ki[Kiteup.yxy[K[K[Ktxt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git commit -,[Km "Added empty e[Kwriteup "
+[master 9348c1e] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git push origin master
+Username for 'https://github.com': Sghi   hiHuar   aurChong
+Password for 'https://ShiHaurChong@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git/'
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ w[Kas[K[Kgiyt [K[K[Kt psu[K[Kuis[K[Ksh origin master
+Username for 'https://github.com': ShiHaurChong
+Password for 'https://ShiHaurChong@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git/'
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ ghi[K[K[Kgit psuh[K[K[Kush origin master
+Username for 'https://github.com': ShiHaurChong
+Password for 'https://ShiHaurChong@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 318 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git
+   1523c09..9348c1e  master -> master
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ edit[K[K[K[Kgit add writeup.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git commit[Kt -m ""A"d"d"e"d" "p"a"r"t" "1" "("a"[1P"n"a"m"e" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs"" "t"o" "w"r"i"t"e"u"p"
+[master 4e98bdf] Added part 1 (names to writeup
+ 1 file changed, 1 insertion(+)
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git statusd[K
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git stautsd[K[K[K[Kty[Kus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git add writey[Kup.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtypescript[m
+
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git commit"[K -m"Added "Added[C[C[C[C[C[C part 2 ()h)o)b)b) [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy))[Cti [K[K[Kto e[Kwi[Krite up"
+[master 742e932] Added part 2 (hobby)to write up
+ 1 file changed, 1 insertion(+)
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git push origin master
+Username for 'https://github.com': SHu  hiHaurChong
+Password for 'https://ShiHaurChong@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 546 bytes | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+git stTo https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git
+   9348c1e..742e932  master -> master
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ toucg =[K[K[Kh s[Kusernane[K[Kme.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git add username.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git commit -m" "[CAdded enoter[K[K[K[K[Kmpty usernam e"
+[master 07d1ca0] Added empty username
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 username.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git psuh[K[K[Kush p[Korigin master
+Username for 'https://github.com': SHiHa     s ShiHaurChong
+Password for 'https://ShiHaurChong@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 352 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git
+   742e932..07d1ca0  master -> master
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git add username.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git somi[K[K[K[Kcommit -m"Adder[K[Ked [1@ [C[C[C[C[C[C[C u d r [1P [1P d e r [1P [1P [1P s e r [C i n f o [C t o  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ u s e r n a m e " 
+[master 7022259] Added user info to username
+ 1 file changed, 1 insertion(+)
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git psu[K[Kush origin master
+Username for 'https://github.com': SHi  hiHaurChong
+Password for 'https://ShiHaurChong@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 286 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git
+   07d1ca0..7022259  master -> master
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git checkout
+Your branch is up-to-date with 'origin/master'.
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git rers[K[Kset
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git mv writeup.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git checkput[K[K[Kout wi[Kriteup.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git che[Keckout [K[K[K[K[K[K[K[K[Kbrank[Kch
+* [32mmaster[m
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git ce[Kheckput[K[K[Kout -b new brank[K[Knch
+fatal: Cannot update paths and switch to branch 'new' at the same time.
+Did you intend to checkout 'branch' which can not be resolved as commit?
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git checkout -b new branch[1Pbranch_branch[C[C[C[C[C[C
+Switched to a new branch 'new_branch'
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ git branch
+  master[m
+* [32mnew_branch[m
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ ls
+build.gradle  src  typescript  username.txt  writeup.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ gi[K[Kgit reset writeup.txt
+chongs@CF165-19:~/csci241/lab-1-ShiHaurChong$ exit
+exit
+
+Script done on Thu 11 Apr 2019 01:51:42 PM PDT
+Script started on Tue 16 Apr 2019 06:07:11 PM PDT
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git get [K[K[K[Kchecj[Kkout -b quesiton#
+Switched to a new branch 'quesiton#'
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git brank -d[K[K[K[Kch -d questuo[K[Kion[K[K[Ko[K[K[Ksiton#
+error: Cannot delete the branch 'quesiton#' which you are currently on.
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git brac[Knck -d quesiton#[1@h[C[C[1P[C[1@\[1P[1P[1@h[C[1@ 
+error: Cannot delete the branch 'quesiton#' which you are currently on.
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git chc[Keck [Kpit [K[K[K[Kout -b qur[Kestion3
+Switched to a new branch 'question3'
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git branck[Khcheckout -b question3[1Pbranch  -d quesiton#
+Deleted branch quesiton# (was 7022259).
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git add writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git commit -m "Added par[Kt[Krt 3 (names  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Ksong)  to write up
+> s[Kgit commit -m "Added part 3 (song) to write up"
+bash: syntax error near unexpected token `('
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git o[Kcommit -m "Added part [K3 [K ()s)p)m)[1P)[1P)o)n)g)[C  to writeup"
+[question3 833d419] Added part3 (song) to writeup
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git h[Kcheckout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git merge question3
+Updating 7022259..833d419
+Fast-forward
+ writeup.txt | 3 [32m++[m[31m-[m
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git branck[Kh -d questo[Kion3
+Deleted branch question3 (was 833d419).
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git push origin master
+Username for 'https://github.com': Shih HaurChong
+Password for 'https://ShiHaurChong@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 336 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git
+   7022259..833d419  master -> master
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle build
+[0m
+Welcome to Gradle 5.0!
+
+Here are the highlights of this release:
+ - Kotlin DSL 1.0
+ - Task timeouts
+ - Dependency alignment aka BOM support
+ - Interactive `gradle init`
+
+For more details see https://docs.gradle.org/5.0/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% INITIALIZING [0s][m[36D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[0K[35D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/chongs/csci241/lab-1-ShiHaurChong/build.gradle[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/chongs/csci241/lab-1-ShiHaurChong/build.gradle[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/chongs/csci241/lab-1-ShiHaurChong/build.gradle[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 3s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :startScripts[m[15D[1B[2A[2K[1B[2K[1A[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ grale ru[K[K[K[K[Kdle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello args[0]
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle run
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ java c [K[K[K[Kx[Kac hello.java[K[K[K[K[K[K[K[K[K[KHello.java
+javac: file not found: Hello.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle run
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle build
+[0m
+
+[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [0s][m[34D[1B[1m> :distZip[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle run
+[0m
+[1A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [0s][m[37D[1B
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[0K[34D[1B[1m> :run[m[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:6)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle run abc
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'abc' not found in root project 'lab-1-ShiHaurChong'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ gradle run --args="abc"
+[0m
+[1A
+[1m> Task :run[m
+Hello abc
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mchongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git add src/ain[K[K[Kmain/java/lab1/Hello.j ava
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git commit -m "Helloe [K[K world now pri nts command line arg"
+[master b485ea4] Hello world now prints command line arg
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ShiHaurCHong[K[K[K[Khong
+ShiHaurChong: command not found
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git ps[Kush
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': ShHa  iHaurChong
+Password for 'https://ShiHaurChong@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 494 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-ShiHaurChong.git
+   833d419..b485ea4  master -> master
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ touch abc.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git ad[K[Kdd[K[Kadd rite[K[K[K[Kwriteuup[K[Kp.txt[K[K[K[K[K[K[K[K[K[K[Kabc.xt[K[Ktxt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+abc.txt  build	build.gradle  src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git rm abc.txtx[K
+error: the following file has changes staged in the index:
+    abc.txt
+(use --cached to keep the file, or -f to force removal)
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git rm -f a[Kabc,[K.y[Ktxt
+rm 'abc.txt'
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ toh[Kuch abc.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ait add[K[K[K[K[K[K[Kgit add abc.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git mv -f [K[K[Kabc.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git rm -f[K[K[K abc.txt qw[K[Kaaa.txt
+fatal: pathspec 'aaa.txt' did not match any files
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ;s
+bash: syntax error near unexpected token `;'
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+abc.txt  build	build.gradle  src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git mv abc.txt aaa.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+aaa.txt  build	build.gradle  src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git blame aaa.txt
+fatal: no such path 'aaa.txt' in HEAD
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+aaa.txt  build	build.gradle  src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git mc[Kv aaa.txt abc.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+abc.txt  build	build.gradle  src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git la[K[Kblame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git blame -f abc.xt[K[K[K.txt
+fatal: no such path 'abc.txt' in HEAD
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git blame -f writeup.txt
+[?1h=4e98bdf1 writeup.txt (ShiHaurChong 2019-04-11 13:03:02 -0700 1) ShiHaur Chong[m
+833d419a writeup.txt (ShiHaurChong 2019-04-16 18:16:43 -0700 2) Hobby: swimming[m
+833d419a writeup.txt (ShiHaurChong 2019-04-16 18:16:43 -0700 3) Favorite song: L[m ove story by taylor swift[m
+[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git log
+[?1h=[33mcommit b485ea42a5dac3370bc18132373e0c96e16bfac1[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:48:23 2019 -0700[m
+[m
+    Hello world now prints command line arg[m
+[m
+[33mcommit 833d419a8c04daa1afd414426a8b5ca7e2c2e5e5[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:16:43 2019 -0700[m
+[m
+    Added part3 (song) to writeup[m
+[m
+[33mcommit 702225994061eb7fde12d502ab1b605f2950f7da[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:12:49 2019 -0700[m
+[m
+    Added user info to username[m
+[m
+[33mcommit 07d1ca03d4f2baa6b352ef5bc3062c747e475eff[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:09:38 2019 -0700[m
+[m
+    Added empty username[m
+:[K[K:[K[K:[K[K:[K[K-[Klog file: [Kaa[K[Kaa[K[K:[K[K[K:[K[K[K:[K[K[m
+[33mcommit 742e932af500d95244abb07752efc9d722fe381d[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:06:01 2019 -0700[m
+[m
+    Added part 2 (hobby)to write up[m
+[m
+[33mcommit 4e98bdf10e89e816c70f58bbb02b4b21dc75caf2[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:03:02 2019 -0700[m
+[m
+    Added part 1 (names to writeup[m
+:[K[K-[Klog file: [Kss[Kdd[Kss[Kdd[K[K[K[K[K:[K[K-[Klog file: [K:[K[K:[K[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    Added part3 (song) to writeup[m
+[24;1H[K:[K[K[m
+:[K[K    Added part 1 (names to writeup[m
+:[K[K[m
+:[K[K[33mcommit 9348c1e3e5e463b6395b050e06f705f50e968608[m[m
+:[K[KAuthor: ShiHaurChong <chongs@wwu.edu>[m
+:[K[KDate:   Thu Apr 11 12:48:46 2019 -0700[m
+:[K[K[m
+:[K[K    Added empty writeup[m
+:[K[K[m
+:[K[K[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+:[K[KAuthor: majeskn <majeskn@wwu.edu>[m
+:[K[KDate:   Mon Jan 7 20:49:19 2019 -0800[m
+:[K[K[m
+:[K[K    Adding setup for gradle[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K-[Klog file: [Kss[Kdd[K[K[K[K[7mLog file "a"  (press RETURN)[27m[24;1H[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM    Added empty username[m
+[24;1H[K:[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KBB[KDate:   Mon Jan 7 20:49:19 2019 -0800[m
+:[K[K [KESCESC[KOO[KBB[K[m
+:[K[K [KESCESC[KOO[KBB[K    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K:[K[K [KESCESC[KOO[KBB[K    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m2fe381d[m[m
+[m
+[m
+[m
+[m
+[m
+[33mc75caf2[m[m
+[m
+[m
+[m
+[m
+[m
+[33me968608[m[m
+[m
+[m
+[m
+[m
+[m
+[33m44a5340[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[24;1H[K[K[K[7m(END)[27m[K[K[HM[m
+[HM[m
+[HM[m
+[HM[m
+[HM[m
+[HM[33m[m[m
+[HM[m
+[HM[m
+[HM[m
+[HM[m
+[HM[m
+[HM[33m[m[m
+[HM[m
+[HM[m
+[HM[m
+[HM[m
+[HM[m
+[HM[33m[m[m
+[HM[m
+[HM[m
+[HM[m
+[HM[m
+[HM[m
+[24;1H[K:[K[K[33m[m[m
+:[K[K[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+:[K[K[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K-[Klog file: [Kss[K[Kaa[Kbb[Kcc[K..[Kxx[Ktt[Kxx[K[K[K[Ktt[Kxx[Ktt[K[K[7mLog file is already in use  (press RETURN)[27m[24;1H[K[K[7m(END)[27m[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ dds[K[K[Kls
+a  abc.txt  build  build.gradle  src  typescript  username.txt	writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git rm -f aba[Kc.txt
+rm 'abc.txt'
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+a  build  build.gradle	src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff[K[K[K[K[K[K[K[Ktouch aaa.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git add aaa.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+a  aaa.txt  build  build.gradle  src  typescript  username.txt	writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git f[Kdiff aaa.txtx[K
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+a  aaa.txt  build  build.gradle  src  typescript  username.txt	writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ y[Ktouch abc.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git add abc.txtx[K
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+a	 abc.txt  build.gradle	typescript    writeup.txt
+aaa.txt  build	  src		username.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git fidd [K[K[K[K[K[K fidd[K[K[K[Kfid[K[K[Kdiff abc.txt aaa.txt
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ ls
+a	 abc.txt  build.gradle	typescript    writeup.txt
+aaa.txt  build	  src		username.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff writeup.txt
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git f[Kdiff --cached writeup.txt
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff HEAD writeup.txt
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git sa[Ktatys=[K[K[K[Ktus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   aaa.txt[m
+	[32mnew file:   abc.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gradle/[m
+	[31ma[m
+	[31mbuild/[m
+	[31mtypescript[m
+
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git rm -f aaa.txt
+rm 'aaa.txt'
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git staty[Kus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   abc.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gradle/[m
+	[31ma[m
+	[31mbuild/[m
+	[31mtypescript[m
+
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git rm -f ab.rxr[K[K[Ktxt[K[K[K[K[Kc[Kbc.txt
+rm 'abc.txt'
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ exut[K[Kot[K[Kit
+exit
+
+Script done on Tue 16 Apr 2019 07:18:54 PM PDT
+Script started on Wed 17 Apr 2019 04:10:09 PM PDT
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff writeup.txt
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff writeup.txt[K[K[K[K[K[K[K[K[K[K[K[K
+[?1h=[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gradle/[m
+	[31ma[m
+	[31mbuild/[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git [K[K[K[Kgit diff wt[Kriteu[K[K[K[K[K[K[K[K[K[K[Klog
+[?1h=[33mcommit b485ea42a5dac3370bc18132373e0c96e16bfac1[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:48:23 2019 -0700[m
+[m
+    Hello world now prints command line arg[m
+[m
+[33mcommit 833d419a8c04daa1afd414426a8b5ca7e2c2e5e5[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:16:43 2019 -0700[m
+[m
+    Added part3 (song) to writeup[m
+[m
+[33mcommit 702225994061eb7fde12d502ab1b605f2950f7da[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:12:49 2019 -0700[m
+[m
+    Added user info to username[m
+[m
+[33mcommit 07d1ca03d4f2baa6b352ef5bc3062c747e475eff[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:09:38 2019 -0700[m
+[m
+    Added empty username[m
+:[K[K [KESCESC[K^?^?[K:[K[K[m
+:[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ exit
+exit
+
+Script done on Wed 17 Apr 2019 04:38:06 PM PDT
