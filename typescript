@@ -1366,3 +1366,205 @@ Date:   Thu Apr 11 13:09:38 2019 -0700[m
 exit
 
 Script done on Wed 17 Apr 2019 04:38:06 PM PDT
+Script started on Wed 17 Apr 2019 04:46:44 PM PDT
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git log
+[?1h=[33mcommit 117a530df6ff8e55b464cb771d14b87621536083[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Wed Apr 17 16:39:13 2019 -0700[m
+[m
+    Typescript[m
+[m
+[33mcommit b485ea42a5dac3370bc18132373e0c96e16bfac1[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:48:23 2019 -0700[m
+[m
+    Hello world now prints command line arg[m
+[m
+[33mcommit 833d419a8c04daa1afd414426a8b5ca7e2c2e5e5[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:16:43 2019 -0700[m
+[m
+    Added part3 (song) to writeup[m
+[m
+[33mcommit 702225994061eb7fde12d502ab1b605f2950f7da[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:12:49 2019 -0700[m
+[m
+    Added user info to username[m
+:[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff 833d419a8c04daa1afd414426 a8b5ca7e2c2e5e5
+[?1h=[1mdiff --git a/src/main/java/lab1/Hello.java b/src/main/java/lab1/Hello.java[m[m
+[1mindex fb97622..b868994 100644[m[m
+[1m--- a/src/main/java/lab1/Hello.java[m[m
+[1m+++ b/src/main/java/lab1/Hello.java[m[m
+[36m@@ -2,6 +2,7 @@[m [mpackage lab1;[m[m
+ [m[m
+ public class Hello{[m[m
+     public static void main(String[] args){[m[m
+[31m-        System.out.println("Hello World!");[m[m
+[32m+[m[m
+[32m+[m[32m        System.out.println("Hello "+ args[0]);[m[m
+     }[m[m
+ }[m[m
+[1mdiff --git a/typescript b/typescript[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..fa38a54[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/typescript[m[m
+[36m@@ -0,0 +1,1368 @@[m[m
+[32m+[m[32mScript started on Thu 11 Apr 2019 12:06:10 PM PDT[m[m
+[32m+[m[32mchongs@CF165-19:~$ mkdir csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~$ cd csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~/csci241$ 1s[m[41m[7m^M[27m[m[m
+:[K[K:[K[K:[K[K:[K[K:[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git ddiff [K[K[K[K[Kiff 833d419a8c04daa1afd414426 a8b5ca7e2c2e5e5
+[?1h=[1mdiff --git a/src/main/java/lab1/Hello.java b/src/main/java/lab1/Hello.java[m[m
+[1mindex fb97622..b868994 100644[m[m
+[1m--- a/src/main/java/lab1/Hello.java[m[m
+[1m+++ b/src/main/java/lab1/Hello.java[m[m
+[36m@@ -2,6 +2,7 @@[m [mpackage lab1;[m[m
+ [m[m
+ public class Hello{[m[m
+     public static void main(String[] args){[m[m
+[31m-        System.out.println("Hello World!");[m[m
+[32m+[m[m
+[32m+[m[32m        System.out.println("Hello "+ args[0]);[m[m
+     }[m[m
+ }[m[m
+[1mdiff --git a/typescript b/typescript[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..fa38a54[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/typescript[m[m
+[36m@@ -0,0 +1,1368 @@[m[m
+[32m+[m[32mScript started on Thu 11 Apr 2019 12:06:10 PM PDT[m[m
+[32m+[m[32mchongs@CF165-19:~$ mkdir csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~$ cd csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~/csci241$ 1s[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m1s: command not found[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mchongs@CF165-19:~/csci241$ [7m^G[27mls[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mchongs@CF165-19:~/csci241$ pwd[m[41m[7m^M[27m[m[m
+:[K[K:[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff 702225994061eb7fde12d502a b1b605f2950f7da 833d419a8c04daa1afd414426a8b5ca7e2c2e5e5
+[?1h=[1mdiff --git a/writeup.txt b/writeup.txt[m[m
+[1mindex f3a0684..b36d689 100644[m[m
+[1m--- a/writeup.txt[m[m
+[1m+++ b/writeup.txt[m[m
+[36m@@ -1,2 +1,3 @@[m[m
+ ShiHaur Chong[m[m
+[31m-Hobby: swimming [m[m
+[32m+[m[32mHobby: swimming[m[m
+[32m+[m[32mFavorite song: Love story by taylor swift[m[m
+[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ 833d419a8c04daa1afd414426a8b5ca7e2 c2e5e
+833d419a8c04daa1afd414426a8b5ca7e2c2e5e: command not found
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff 833d419a8c04daa1afd414426 a8b5ca7e2c2e5e
+[?1h=[1mdiff --git a/src/main/java/lab1/Hello.java b/src/main/java/lab1/Hello.java[m[m
+[1mindex fb97622..b868994 100644[m[m
+[1m--- a/src/main/java/lab1/Hello.java[m[m
+[1m+++ b/src/main/java/lab1/Hello.java[m[m
+[36m@@ -2,6 +2,7 @@[m [mpackage lab1;[m[m
+ [m[m
+ public class Hello{[m[m
+     public static void main(String[] args){[m[m
+[31m-        System.out.println("Hello World!");[m[m
+[32m+[m[m
+[32m+[m[32m        System.out.println("Hello "+ args[0]);[m[m
+     }[m[m
+ }[m[m
+[1mdiff --git a/typescript b/typescript[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..fa38a54[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/typescript[m[m
+[36m@@ -0,0 +1,1368 @@[m[m
+[32m+[m[32mScript started on Thu 11 Apr 2019 12:06:10 PM PDT[m[m
+[32m+[m[32mchongs@CF165-19:~$ mkdir csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~$ cd csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~/csci241$ 1s[m[41m[7m^M[27m[m[m
+:[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git [K[K[K[K;s[K[Kls
+a  build  build.gradle	src  typescript  username.txt  writeup.txt
+chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git log
+[?1h=[33mcommit 117a530df6ff8e55b464cb771d14b87621536083[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Wed Apr 17 16:39:13 2019 -0700[m
+[m
+    Typescript[m
+[m
+[33mcommit b485ea42a5dac3370bc18132373e0c96e16bfac1[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:48:23 2019 -0700[m
+[m
+    Hello world now prints command line arg[m
+[m
+[33mcommit 833d419a8c04daa1afd414426a8b5ca7e2c2e5e5[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Tue Apr 16 18:16:43 2019 -0700[m
+[m
+    Added part3 (song) to writeup[m
+[m
+[33mcommit 702225994061eb7fde12d502ab1b605f2950f7da[m[m
+Author: ShiHaurChong <chongs@wwu.edu>[m
+Date:   Thu Apr 11 13:12:49 2019 -0700[m
+[m
+    Added user info to username[m
+:[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$  git diff 702225994061eb7fde12d502 ab1b605f2950f7da
+[?1h=[1mdiff --git a/src/main/java/lab1/Hello.java b/src/main/java/lab1/Hello.java[m[m
+[1mindex fb97622..b868994 100644[m[m
+[1m--- a/src/main/java/lab1/Hello.java[m[m
+[1m+++ b/src/main/java/lab1/Hello.java[m[m
+[36m@@ -2,6 +2,7 @@[m [mpackage lab1;[m[m
+ [m[m
+ public class Hello{[m[m
+     public static void main(String[] args){[m[m
+[31m-        System.out.println("Hello World!");[m[m
+[32m+[m[m
+[32m+[m[32m        System.out.println("Hello "+ args[0]);[m[m
+     }[m[m
+ }[m[m
+[1mdiff --git a/typescript b/typescript[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..fa38a54[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/typescript[m[m
+[36m@@ -0,0 +1,1368 @@[m[m
+[32m+[m[32mScript started on Thu 11 Apr 2019 12:06:10 PM PDT[m[m
+[32m+[m[32mchongs@CF165-19:~$ mkdir csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~$ cd csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~/csci241$ 1s[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m1s: command not found[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mchongs@CF165-19:~/csci241$ [7m^G[27mls[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mchongs@CF165-19:~/csci241$ pwd[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m/home/chongs/csci241[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mchongs@CF165-19:~/csci241$ ls ~[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mcsci241  Documents  gitlab-fri-demo  Music     Public    testfile.java  Videos[m[41m[m
+:[K[K[32m[m[32m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mDesktop  Downloads  IdeaProjects     Pictures  Templates  typescript[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mchongs@CF165-19:~/csci241$ git clone https://github.com/CSCI241Spring2019/lab-1[m :[K[K[32m[m[32m- [7m^M[27mShiHaurChong.git[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mCloning into 'lab-1-ShiHaurChong'...[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mremote: Enumerating objects: 8, done.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mremote: Counting objects:  12% (1/8)   [7m^M[27mremote: Counting objects:  25% (2/8)  [m :[K[K[32m[m[32m [7m^M[27mremote: Counting objects:  37% (3/8)   [7m^M[27mremote: Counting objects:  50% (4/8)[m :[K[K[32m[m[32m   [7m^M[27mremote: Counting objects:  62% (5/8)   [7m^M[27mremote: Counting objects:  75% (6/[m :[K[K[32m[m[32m8)   [7m^M[27mremote: Counting objects:  87% (7/8)   [7m^M[27mremote: Counting objects: 100% ([m :[K[K[32m[m[32m8/8)   [7m^M[27mremote: Counting objects: 100% (8/8), done.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mremote: Compressing objects:  25% (1/4)   [7m^M[27mremote: Compressing objects:  50% ([m :[K[K[32m[m[32m2/4)   [7m^M[27mremote: Compressing objects:  75% (3/4)   [7m^M[27mremote: Compressing objects[m :[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git diff 833d419a8c04daa1afd414426 a8b5ca7e2c2e5e5
+[?1h=[1mdiff --git a/src/main/java/lab1/Hello.java b/src/main/java/lab1/Hello.java[m[m
+[1mindex fb97622..b868994 100644[m[m
+[1m--- a/src/main/java/lab1/Hello.java[m[m
+[1m+++ b/src/main/java/lab1/Hello.java[m[m
+[36m@@ -2,6 +2,7 @@[m [mpackage lab1;[m[m
+ [m[m
+ public class Hello{[m[m
+     public static void main(String[] args){[m[m
+[31m-        System.out.println("Hello World!");[m[m
+[32m+[m[m
+[32m+[m[32m        System.out.println("Hello "+ args[0]);[m[m
+     }[m[m
+ }[m[m
+[1mdiff --git a/typescript b/typescript[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..fa38a54[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/typescript[m[m
+[36m@@ -0,0 +1,1368 @@[m[m
+[32m+[m[32mScript started on Thu 11 Apr 2019 12:06:10 PM PDT[m[m
+[32m+[m[32mchongs@CF165-19:~$ mkdir csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~$ cd csci241[m[41m[7m^M[27m[m[m
+[32m+[m[32mchongs@CF165-19:~/csci241$ 1s[m[41m[7m^M[27m[m[m
+:[K[K[?1l>chongs@cf164-20:~/csci241/lab-1-ShiHaurChong$ git [K[K[K[Kexit
+exit
+
+Script done on Wed 17 Apr 2019 04:52:13 PM PDT
